@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayNews"
+    android:weightSum="15"
+    android:orientation="vertical"
+    >
+    <WebView
+        android:id="@+id/adn_content_wb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        >
+    </WebView>
+
+    <com.example.newsappbykotlin.dyi.WebBar
+        android:id="@+id/adn_toolbar_wb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </com.example.newsappbykotlin.dyi.WebBar>
+</LinearLayout>

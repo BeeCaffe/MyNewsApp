@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsAppByKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">正在加载...</string>
+    <string name="referse_end">已无更多内容...</string>
+    <string name="headline">今日头条</string>
+</resources>
